@@ -2,5 +2,9 @@ package ru.netology.domain;
 
 public class Comment {
 
-    private String comment;
+    private int count;
+    private boolean canPost;
+    private boolean groupCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 }

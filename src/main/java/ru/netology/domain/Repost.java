@@ -2,6 +2,7 @@ package ru.netology.domain;
 
 public class Repost {
 
-    private String repost;
+    private int count;
+    private boolean userReposted;
 
 }
